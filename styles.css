@@ -665,12 +665,38 @@ color: var(--bg-color);
         left: 0;
         width: 100%;
         padding: 1rem;
-        background: var(--bg-color);
+        background: transparent;
         box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+        transition: .25s ease;
+        transition-delay: .25s;
+        z-index: 1;
+
      }
+
+     .navbar.active .active-nav{
+        transition-delay: .25s;
+     }
+
+.navbar .active{
+    transition-delay: 0s;
+    left: 0;
+
+}
+
+.navbar .active-nav{
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: red;
+    z-index: -1;
+    transition: .5s;
+}
+
      .navbar a {
         display: block;
         font-size: 2rem;
         margin: 3rem 0;
      }
- }
+    }
