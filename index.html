@@ -68,7 +68,10 @@
 
         </div>
         <div class="about-content">
-            <h3>Frontend Developer</h3>
+             <h2 style="font-size: 24px;">Hello, It's me</h2> <br>
+             <h2 style="font-size: 48px;">Arjun Gurjar</h2>
+            <h3> And I'm a <span class="typed-output"></span></h3>
+            
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum repellendus laudantium quasi, pariatur veritatis adipisci suscipit exercitationem animi fugiat rem laboriosam nobis beatae odio quas dolorum tempora!
 
             </p>
@@ -261,6 +264,29 @@
 
   </body>
   <script src="script.js" id="education">
+    
 
   </script>
+
+   <!-- Element to contain animated typing -->
+   
+
+   <!-- Load library from the CDN -->
+   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script> 
+   <!-- Setup and start animation! -->
+   <script>
+    var typed = new Typed('.typed-output', {
+      strings: ['Web Developer', 'Frontend Developer' , 'Web Designer' , 'Quora Writer'],
+      typeSpeed: 100,
+      backSpeed:100,
+      backDelay:1000,
+      loop:true
+
+
+    });
+
+    // https://github.com/mattboldt/typed.js
+  </script>
+    
+ </body>
 </html>
