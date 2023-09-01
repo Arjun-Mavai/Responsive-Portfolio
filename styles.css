@@ -41,6 +41,8 @@ body {
   justify-content: space-between;
   z-index: 100;
   transition: 0.3s;
+  gap: 50rem;
+  
 }
 
 .header.sticky{
@@ -68,8 +70,8 @@ body {
   opacity: 1;
   display: block;
   z-index: 1000;
+   
 }
-
 .navbar.active {
   left: 0;
   transition-delay: 0s;
