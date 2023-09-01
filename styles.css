@@ -676,19 +676,22 @@ position: relative;
   flex-wrap: wrap;
   padding: 2rem 9%;
   background: var(--second-bg-color);
+  /* z-index: 9999; */
+  /* position: relative; */
+  bottom: 0;
 }
 
-.footer-text,
+/* .footer-text,
 .footer-iconTop{
     position: relative;
-}
+} */
 
  .footer-text p {
   font-size: 1.6rem;
 }
 
 .footer-iconTop a {
-  position: relative;
+  /* position: relative; */
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -753,11 +756,11 @@ position: relative;
   animation: none;
 }
 
-.section:nth-child(odd) .animate.scroll , 
+/* .section:nth-child(odd) .animate.scroll , 
 .footer .animate.scroll
 {
     background: var(--second-bg-color);
-}
+} */
 
 .education .education-box .animate.scroll{
     width: 105%;
@@ -899,6 +902,7 @@ position: relative;
     }
     .footer {
         flex-direction: column-reverse;
+        
 
     }
     .footer p {
@@ -965,3 +969,9 @@ position: relative;
     width: 0;
   }
 } 
+
+@media (min-width:768px){
+    #menu-icon{
+        display: none;
+    }
+}
