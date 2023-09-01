@@ -55,7 +55,7 @@ body {
 }
 
 .navbar {
-  position: relative;
+  /* position: relative; */
   top: 100%;
   left: -100%;
   width: 100%;
