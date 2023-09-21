@@ -11,6 +11,12 @@
   font-family: "Poppins", sans-serif;
 }
 
+/* iframe{
+  position: absolute;
+  height:auto;
+   width:"100%" ;
+} */
+
 :root {
   --bg-color: #081b29;
   --second-bg-color: #112e42;
